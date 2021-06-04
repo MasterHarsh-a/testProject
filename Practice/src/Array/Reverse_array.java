@@ -14,6 +14,12 @@ public class Reverse_array {
 		//Use of Collection.Reverse
 		Collections.reverse(Arrays.asList(value));
 		System.out.println("After Reverse:" + Arrays.toString(value));
+		
+		//Reversing String Value
+		String value1[]= {"Practice"," make", "Man","Perfect"};
+		System.out.println("Before Reversing"+Arrays.deepToString(value1));
+		Collections.reverse(Arrays.asList(value1));
+		System.out.println("After Reverse"+Arrays.deepToString(value1));
 
 	}
 
